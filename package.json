@@ -1,6 +1,6 @@
 {
   "name": "hcaptcha-solver",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A library to solve hCaptcha challenges",
   "author": "Jimmy Laurent",
   "repository": {
@@ -8,6 +8,7 @@
     "url": "git://github.com/JimmyLaurent/hcaptcha-solver.git"
   },
   "main": "index.js",
+  "types": "index.d.ts",
   "license": "MIT",
   "keywords": [
     "hcaptcha",
