@@ -109,8 +109,8 @@ async function tryToSolve(sitekey, host) {
 
 async function solveCaptcha(url, options = {}) {
   const { gentleMode, timeoutInMs = 12000000 } = options;
+  const siteKey = options.siteKey || uuid();
   const { hostname } = Url.parse(url);
-  const siteKey = uuid();
   const startingTime = Date.now();
 
   while (true) {
